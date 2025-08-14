@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Mussarela",
+    "descricao": "Queijo mussarela, molho de tomate e orégano.",
+    "imagem": "img/pizzas/pizza-mussarela.png"
+  },
+  {
+    "id": 2,
+    "nome": "Calabresa",
+    "descricao": "Linguiça calabresa fatiada, cebola, queijo e orégano.",
+    "imagem": "img/pizzas/pizza-calabresa.png"
+  },
+  {
+    "id": 3,
+    "nome": "Portuguesa",
+    "descricao": "Presunto, ovo, cebola, pimentão, ervilha, queijo e azeitonas.",
+    "imagem": "img/pizzas/pizza-portuguesa.png"
+  },
+  {
+    "id": 4,
+    "nome": "Frango com Catupiry",
+    "descricao": "Frango desfiado, catupiry e orégano.",
+    "imagem": "img/pizzas/pizza-frango-catupiry.png"
+  },
+  {
+    "id": 5,
+    "nome": "Quatro Queijos",
+    "descricao": "Mussarela, gorgonzola, parmesão e catupiry.",
+    "imagem": "img/pizzas/pizza-quatro-queijos.png"
+  },
+  {
+    "id": 6,
+    "nome": "Marguerita",
+    "descricao": "Tomate, mussarela, manjericão e azeite.",
+    "imagem": "img/pizzas/pizza-marguerita.png"
+  },
+  {
+    "id": 7,
+    "nome": "Bacon",
+    "descricao": "Bacon crocante, mussarela e orégano.",
+    "imagem": "img/pizzas/pizza-bacon.png"
+  },
+  {
+    "id": 8,
+    "nome": "Napolitana",
+    "descricao": "Mussarela, tomate, parmesão e orégano.",
+    "imagem": "img/pizzas/pizza-napolitana.png"
+  },
+  {
+    "id": 9,
+    "nome": "Atum",
+    "descricao": "Atum, cebola, mussarela e orégano.",
+    "imagem": "img/pizzas/pizza-atum.png"
+  },
+  {
+    "id": 10,
+    "nome": "Chocolate",
+    "descricao": "Creme de chocolate, podendo ter morango ou granulado.",
+    "imagem": "img/pizzas/pizza-chocolate-com-morango.png"
+  },
+  {
+    "id": 11,
+    "nome": "Pepperoni",
+    "descricao": "Fatias de pepperoni, mussarela e molho de tomate.",
+    "imagem": "img/pizzas/pizza-pepperoni.png"
+  },
+  {
+    "id": 12,
+    "nome": "Vegetariana",
+    "descricao": "Tomate, pimentão, cebola, milho, azeitonas e mussarela.",
+    "imagem": "img/pizzas/pizza-vegetariana.png"
+  }
+]

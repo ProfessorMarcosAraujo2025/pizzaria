@@ -1,0 +1,20 @@
+:root {
+  --cor1: #D62828;
+  --cor2: #FEC601;
+  --cor3: #8C4A2F;
+  --cor4: #5A3D2B;
+  --cor5: #FFF3E0;
+
+  /* Outra sugestão */
+  /* --cor6: #C0392B;
+  --cor7: #F4B400;
+  --cor8: #A0522d;
+  --cor9: #4E342E;
+  --cor10: #FAF3E0; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
