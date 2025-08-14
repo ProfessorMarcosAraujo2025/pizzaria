@@ -1,2 +1,2 @@
-# pizzaria
+# Pizzaria
 Pizzaria Sabor &amp; Arte
