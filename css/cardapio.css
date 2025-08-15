@@ -5,3 +5,56 @@
   --cor4: #5A3D2B;
   --cor5: #FFF3E0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+
+.cardapio {
+  width: 90%;
+  height: auto;
+  background-color: var(--cor3);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+.imagem-pizza {
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  width: 200px;
+  height: 350px;
+  padding: 5px;
+  background-color: var(--cor2);
+  border-radius: 10px;
+}
+
+.nome-pizza {
+  color: var(--cor4);
+}
+
+.comprar {
+  background-color: var(--cor1);
+  color: var(--cor5);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+.comprar:hover {
+  background-color: var(--cor3);
+}

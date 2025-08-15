@@ -17,4 +17,24 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-image: url("../img/icones/fundo.jpg");
+  background-size: 800px;
 }
+
+#logotipo {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: var(--cor1);
+}
+
+.titulo {
+  color: var(--cor5);
+}
+
