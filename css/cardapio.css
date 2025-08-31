@@ -4,6 +4,7 @@
   --cor3: #8C4A2F;
   --cor4: #5A3D2B;
   --cor5: #FFF3E0;
+  --cor6: #ffffff;
 }
 
 body {
@@ -12,31 +13,60 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  min-height: 100vh;
+  background-image: url("../img/icones/fundo.jpg");
+  background-size: 400px;
+  background-attachment: fixed;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: var(--cor1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  
+}
+
+.titulo {
+  color: var(--cor6);
 }
 
 
+
+#logotipo {
+  width: 100px;
+  border-radius: 10px;
+}
+
 .cardapio {
-  width: 90%;
+  width: 75%;
   height: auto;
-  background-color: var(--cor3);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   padding: 10px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  background-color: var(--cor3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
 
 
 .imagem-pizza {
   width: 200px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .card {
   width: 200px;
-  height: 350px;
-  padding: 5px;
+  height: auto;
+  padding: 10px;
   background-color: var(--cor2);
   border-radius: 10px;
 }
@@ -45,16 +75,34 @@ body {
   color: var(--cor4);
 }
 
+.descricao-pizza {
+  font-style: italic;
+  height: 60px;
+  overflow: hidden;
+  
+}
+
 .comprar {
   background-color: var(--cor1);
   color: var(--cor5);
   border: none;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 10px 5px 10px;
   cursor: pointer;
   
 }
 
 .comprar:hover {
   background-color: var(--cor3);
+  color: var(--cor6);
+}
+
+.rodape {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--cor1);
+  color: var(--cor6);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

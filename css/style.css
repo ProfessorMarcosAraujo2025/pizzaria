@@ -4,6 +4,7 @@
   --cor3: #8C4A2F;
   --cor4: #5A3D2B;
   --cor5: #FFF3E0;
+  --cor6: #ffffff;
 
   /* Outra sugestão */
   /* --cor6: #C0392B;
@@ -13,12 +14,17 @@
   --cor10: #FAF3E0; */
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   background-image: url("../img/icones/fundo.jpg");
-  background-size: 800px;
+  background-size: 400px;
+  background-attachment: fixed;
 }
 
 #logotipo {
@@ -32,9 +38,56 @@ body {
   justify-content: space-around;
   padding: 10px;
   background-color: var(--cor1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
 }
 
 .titulo {
-  color: var(--cor5);
+  color: var(--cor6);
 }
 
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin-top: 50px; 
+  
+}
+
+.carrossel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--cor5);
+}
+
+
+.navegacao {
+  display: flex;
+  gap: 10px;
+  background-color: var(--cor2);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+
+
+.imagem-promo {
+  width: 340px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--cor1);
+  color: var(--cor6);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
